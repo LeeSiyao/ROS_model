@@ -1,0 +1,187 @@
+walker:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 100
+  
+  # Position Controllers ---------------------------------------
+  head_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: head_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  head_j2_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: head_j2
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_limb_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_limb_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_limb_j2_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_limb_j2
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_limb_j3_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_limb_j3
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_limb_j4_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_limb_j4
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_limb_j5_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_limb_j5
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_limb_j6_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_limb_j6
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_limb_j7_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_limb_j7
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_thumb_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_thumb_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_index_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_index_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_middle_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_middle_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_ring_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_ring_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_limb_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_limb_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_limb_j2_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_limb_j2
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_limb_j3_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_limb_j3
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_limb_j4_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_limb_j4
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_limb_j5_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_limb_j5
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_limb_j6_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_limb_j6
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_limb_j7_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_limb_j7
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_thumb_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_thumb_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_index_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_index_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_middle_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_middle_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_ring_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_ring_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+	right_leg_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_leg_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_leg_j2_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_leg_j2
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_leg_j3_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_leg_j3
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_leg_j4_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_leg_j4
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_leg_j5_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_leg_j5
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  right_leg_j6_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: right_leg_j6
+    pid: {p: 1000.0, i: 0, d: 0}
+
+	left_leg_j1_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_leg_j1
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_leg_j2_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_leg_j2
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_leg_j3_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_leg_j3
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_leg_j4_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_leg_j4
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_leg_j5_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_leg_j5
+    pid: {p: 1000.0, i: 0, d: 0}
+
+  left_leg_j6_velocity_controller:
+    type: effort_controllers/JointVelocityController
+    joint: left_leg_j6
+    pid: {p: 1000.0, i: 0, d: 0}
+

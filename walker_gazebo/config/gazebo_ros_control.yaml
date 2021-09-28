@@ -1,0 +1,42 @@
+gazebo_ros_control/pid_gains:
+
+  head_j1: {p: 1.0, i: 0.0, d: 0.0}
+  head_j2: {p: 1.0, i: 0.0, d: 0.0}
+
+  right_limb_j1: {p: 1.0, i: 0.0, d: 0.0}
+  right_limb_j2: {p: 1.0, i: 0.0, d: 0.0}
+  right_limb_j3: {p: 1.0, i: 0.0, d: 0.0}
+  right_limb_j4: {p: 1.0, i: 0.0, d: 0.0}
+  right_limb_j5: {p: 1.0, i: 0.0, d: 0.0}
+  right_limb_j6: {p: 1.0, i: 0.0, d: 0.0}
+  right_limb_j7: {p: 1.0, i: 0.0, d: 0.0}
+  # right_thumb_j1: {p: 1.0, i: 0, d: 0}
+  # right_index_j1: {p: 1.0, i: 0, d: 0}
+  # right_middle_j1: {p: 1.0, i: 0, d: 0}
+  # right_ring_j1: {p: 1.0, i: 0, d: 0}
+
+  left_limb_j1: {p: 1.0, i: 0.0, d: 0.0}
+  left_limb_j2: {p: 1.0, i: 0.0, d: 0.0}
+  left_limb_j3: {p: 1.0, i: 0.0, d: 0.0}
+  left_limb_j4: {p: 1.0, i: 0.0, d: 0.0}
+  left_limb_j5: {p: 1.0, i: 0.0, d: 0.0}
+  left_limb_j6: {p: 1.0, i: 0.0, d: 0.0}
+  left_limb_j7: {p: 1.0, i: 0.0, d: 0.0}
+  # left_thumb_j1: {p: 1.0, i: 0, d: 0}
+  # left_index_j1: {p: 1.0, i: 0, d: 0}
+  # left_middle_j1: {p: 1.0, i: 0, d: 0}
+  # left_ring_j1: {p: 1.0, i: 0, d: 0}s
+
+  right_leg_j1: {p: 1.0, i: 0.0, d: 0.0}
+  right_leg_j2: {p: 1.0, i: 0.0, d: 0.0}
+  right_leg_j3: {p: 1.0, i: 0.0, d: 0.0}
+  right_leg_j4: {p: 1.0, i: 0.0, d: 0.0}
+  right_leg_j5: {p: 1.0, i: 0.0, d: 0.0}
+  right_leg_j6: {p: 1.0, i: 0.0, d: 0.0}
+
+  left_leg_j1: {p: 1.0, i: 0.0, d: 0.0}
+  left_leg_j2: {p: 1.0, i: 0.0, d: 0.0}
+  left_leg_j3: {p: 1.0, i: 0.0, d: 0.0}
+  left_leg_j4: {p: 1.0, i: 0.0, d: 0.0}
+  left_leg_j5: {p: 1.0, i: 0.0, d: 0.0}
+  left_leg_j6: {p: 1.0, i: 0.0, d: 0.0}
